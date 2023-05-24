@@ -1,0 +1,59 @@
+:root{
+    --black: black;
+    --primary: rgb(139, 214, 243);
+--secondary: rgb(211, 78, 160);
+--success: rgb(23, 168, 23);
+--warning: gold;
+--danger: red;
+--succes: white;
+
+}
+body{
+background: var(--black);
+}
+.txt-primary{
+    color: var(--primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.txte-secondary{
+    color: var(--success);
+    border-radius: 100%;
+}
+.txte-success{
+    color: var(--succes);
+}
+.categoria-1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.efeito:hover{
+    transition: 0.5s;
+    transform: scale(1.2 , 1.2);
+}
+.efeitoCont{
+    transition-duration: 0.5s;
+}
+.footer-1{
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: rgb(49, 51, 51);
+    text-align: center;
+    padding: 25px;
+}
+.footer-1 h5 a{
+    color: white;
+    text-decoration: none;
+}
+.card-2{
+    width: 100%;
+    height: 242px;
+}
+.card-3{
+    width: 100%;
+    height: 310px;
+}
+.card-4 a{
+    width: 50%;
+    height: 40px;
+}
